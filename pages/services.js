@@ -7,7 +7,7 @@ export default function Services() {
   return (
     <>
       <Head>
-        <title>Services - Niamh Hawthorne</title>
+        <title>Services - Riley Shaw</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

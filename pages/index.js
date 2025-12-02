@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Niamh Hawthorne - Producer & Creative Problem-Solver</title>
+        <title>Riley Shaw - Producer & Creative Problem-Solver</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -41,7 +41,13 @@ export default function Home() {
               <div className="relative fade-in-delay-2">
                 <div className="bg-[#E0F2FE] border-[4px] border-[#2e2e2e] p-8 transform rotate-2">
                   <div className="bg-white border-[4px] border-[#2e2e2e] p-6 transform -rotate-1">
-                    <div className="aspect-square bg-gray-200 border-[4px] border-[#2e2e2e]"></div>
+                    <div className="aspect-square border-[4px] border-[#2e2e2e] overflow-hidden bg-gradient-to-br from-[#E0F2FE] via-[#FFF9C4] to-[#FFE5D9]">
+                      <img 
+                        src="https://i.pravatar.cc/600?img=68" 
+                        alt="Riley Shaw" 
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -52,7 +58,7 @@ export default function Home() {
         {/* Featured Intro */}
         <section className="py-12 sm:py-16 px-4 sm:px-6 bg-white">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl font-black mb-6 fade-in-up">I'M NIAMH</h2>
+            <h2 className="text-4xl font-black mb-6 fade-in-up">I'M RILEY</h2>
             <p className="text-xl leading-relaxed fade-in-delay-1">
               A producer who loves making things run smoothly, look brilliant, and land perfectly across every platform. From AAA video game trailers to TV commercials, localisation projects and travel content, I've produced work across Europe for screens big and small.
             </p>
@@ -67,22 +73,28 @@ export default function Home() {
             </div>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8 relative z-10">
               <article className="border-[4px] border-[#2e2e2e] p-6 bg-white hover:bg-[#E0F2FE] transition-colors fade-in-delay-1">
-                <h3 className="text-2xl font-bold mb-4">Project Title</h3>
-                <p className="mb-6">Short description: a one-liner explaining the project (e.g. "Localised AAA game trailer for European markets — multi-language VO, full QC, and platform-specific deliverables.")</p>
+                <h3 className="text-2xl font-bold mb-4">AAA Game Trailer Localisation</h3>
+                <p className="mb-6">
+                  Localised AAA game trailer for European markets — multi-language VO, full QC, and platform-specific deliverables.
+                </p>
                 <Link href="/portfolio/project-1" className="btn-3d inline-block px-6 py-2 font-bold">
                   VIEW PROJECT →
                 </Link>
               </article>
               <article className="border-[4px] border-[#2e2e2e] p-6 bg-white hover:bg-[#FFE5D9] transition-colors fade-in-delay-2">
-                <h3 className="text-2xl font-bold mb-4">Project Title</h3>
-                <p className="mb-6">Short description.</p>
+                <h3 className="text-2xl font-bold mb-4">Cinematic TV Spot Campaign</h3>
+                <p className="mb-6">
+                  High-impact TV and cinema campaign with localised edits, audio mixes, and clearances for multiple broadcasters.
+                </p>
                 <Link href="/portfolio/project-2" className="btn-3d inline-block px-6 py-2 font-bold">
                   VIEW PROJECT →
                 </Link>
               </article>
               <article className="border-[4px] border-[#2e2e2e] p-6 bg-white hover:bg-[#FFF9C4] transition-colors fade-in-delay-3">
-                <h3 className="text-2xl font-bold mb-4">Project Title</h3>
-                <p className="mb-6">Short description.</p>
+                <h3 className="text-2xl font-bold mb-4">Social-First Travel Series</h3>
+                <p className="mb-6">
+                  Vertical-first travel content series tailored for TikTok and Reels with fast-turnaround edits and approvals.
+                </p>
                 <Link href="/portfolio/project-3" className="btn-3d inline-block px-6 py-2 font-bold">
                   VIEW PROJECT →
                 </Link>

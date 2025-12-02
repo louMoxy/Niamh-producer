@@ -41,7 +41,7 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Contact - Niamh Hawthorne</title>
+        <title>Contact - Riley Shaw</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

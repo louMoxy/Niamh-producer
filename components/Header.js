@@ -7,8 +7,8 @@ export default function Header() {
   return (
     <header className="bg-white border-b-[4px] border-[#2e2e2e]">
       <div className="max-w-7xl mx-auto px-4 md:px-6 py-4 flex items-center justify-between">
-        <div className="text-xl md:text-2xl font-bold" style={{fontFamily: 'Syncopate, sans-serif'}}>
-          Niamh <span className="text-[#2e2e2e]">Hawthorne</span>
+        <div className="text-xl md:text-2xl font-bold" style={{ fontFamily: 'Syncopate, sans-serif' }}>
+          Riley <span className="text-[#2e2e2e]">Shaw</span>
         </div>
         
         {/* Desktop Navigation */}

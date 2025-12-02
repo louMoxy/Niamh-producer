@@ -7,7 +7,7 @@ export default function Project2() {
   return (
     <>
       <Head>
-        <title>Project Title - Niamh Hawthorne</title>
+        <title>Cinematic TV Spot Campaign - Riley Shaw</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -19,21 +19,23 @@ export default function Project2() {
             ← BACK TO PORTFOLIO
           </Link>
 
-          <h1 className="text-6xl font-black mb-12">PROJECT TITLE</h1>
+        <h1 className="text-6xl font-black mb-12">CINEMATIC TV SPOT CAMPAIGN</h1>
 
           <section className="border-[4px] border-[#2e2e2e] p-6 bg-[#FFE5D9] mb-8">
-            <p className="text-lg mb-2"><strong>CLIENT:</strong> [Client Name]</p>
-            <p className="text-lg"><strong>ROLE:</strong> Producer</p>
+            <p className="text-lg mb-2"><strong>CLIENT:</strong> [Fictional Brand]</p>
+            <p className="text-lg"><strong>ROLE:</strong> Lead Producer</p>
           </section>
 
           <section className="mb-12">
             <h2 className="text-3xl font-black mb-6">OVERVIEW</h2>
             <div className="space-y-4 text-lg leading-relaxed">
               <p>
-                A short paragraph summarising the project and what made it interesting.
+                This project involved producing a cinematic TV and cinema campaign across multiple European markets, with a focus on
+                bold visuals and clear storytelling.
               </p>
               <p>
-                Example: "This project involved producing a multi-language localisation of an AAA game trailer for European territories. I managed the VO direction, timelines, QC checks and platform-specific deliverables."
+                I managed production timelines, localised edits, audio mixes and delivery for every broadcaster spec, ensuring each
+                version passed clearance on the first attempt.
               </p>
             </div>
           </section>
@@ -41,17 +43,18 @@ export default function Project2() {
           <section className="border-[4px] border-[#2e2e2e] p-8 bg-[#FFF9C4] mb-12">
             <h2 className="text-3xl font-black mb-6">MY RESPONSIBILITIES</h2>
             <ul className="space-y-3 text-lg">
-              <li>• Directed French, German, Italian, Dutch and Portuguese VO sessions</li>
-              <li>• Built and managed the production schedule</li>
-              <li>• QC'd all video files, ensuring correct graphics, subtitles, and end-slates</li>
-              <li>• Delivered all platform-specific versions (TikTok, Meta, TV, Cinema)</li>
+              <li>• Built and maintained the master TV and cinema delivery grid across all territories</li>
+              <li>• Coordinated offline/online edits, grade and audio mix sessions</li>
+              <li>• Managed localisation for supers, end-slates and compliance audio</li>
+              <li>• Submitted and tracked approvals with clearance bodies and broadcasters</li>
             </ul>
           </section>
 
           <section className="border-[4px] border-[#2e2e2e] p-8 bg-[#E0F2FE]">
             <h2 className="text-3xl font-black mb-6">RESULT</h2>
             <p className="text-lg leading-relaxed">
-              Delivered on time, fully approved, and distributed across multiple markets with zero corrections.
+              Spots delivered on time to all broadcasters and cinemas, with full approval and no rejections across multiple
+              territories.
             </p>
           </section>
         </div>

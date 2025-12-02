@@ -7,7 +7,7 @@ export default function Project1() {
   return (
     <>
       <Head>
-        <title>Project Title - Niamh Hawthorne</title>
+        <title>AAA Game Trailer Localisation - Riley Shaw</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -19,7 +19,7 @@ export default function Project1() {
             ← BACK TO PORTFOLIO
           </Link>
 
-          <h1 className="text-6xl font-black mb-12">PROJECT TITLE</h1>
+        <h1 className="text-6xl font-black mb-12">AAA GAME TRAILER LOCALISATION</h1>
 
           <section className="border-[4px] border-[#2e2e2e] p-6 bg-[#E0F2FE] mb-8">
             <p className="text-lg mb-2"><strong>CLIENT:</strong> [Client Name]</p>

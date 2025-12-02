@@ -7,7 +7,7 @@ export default function Portfolio() {
   return (
     <>
       <Head>
-        <title>Portfolio - Niamh Hawthorne</title>
+        <title>Portfolio - Riley Shaw</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -19,24 +19,30 @@ export default function Portfolio() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <article className="border-[4px] border-[#2e2e2e] p-6 bg-[#E0F2FE] hover:bg-[#FFE5D9] transition-colors fade-in-delay-1">
-              <h2 className="text-2xl font-black mb-4">PROJECT TITLE</h2>
-              <p className="mb-6">Short description: a one-liner explaining the project (e.g. "Localised AAA game trailer for European markets — multi-language VO, full QC, and platform-specific deliverables.")</p>
+              <h2 className="text-2xl font-black mb-4">AAA GAME TRAILER LOCALISATION</h2>
+              <p className="mb-6">
+                Localised AAA game trailer for European markets with multi-language VO direction, QC, and platform-specific deliverables.
+              </p>
               <Link href="/portfolio/project-1" className="btn-3d inline-block px-6 py-2 bg-white font-bold">
                 VIEW PROJECT →
               </Link>
             </article>
 
             <article className="border-[4px] border-[#2e2e2e] p-6 bg-[#FFE5D9] hover:bg-[#FFF9C4] transition-colors fade-in-delay-2">
-              <h2 className="text-2xl font-black mb-4">PROJECT TITLE</h2>
-              <p className="mb-6">Short description.</p>
+              <h2 className="text-2xl font-black mb-4">CINEMATIC TV SPOT CAMPAIGN</h2>
+              <p className="mb-6">
+                High-impact TV and cinema spots across multiple markets, including cutdowns, audio mixes, and broadcaster clearances.
+              </p>
               <Link href="/portfolio/project-2" className="btn-3d inline-block px-6 py-2 bg-white font-bold">
                 VIEW PROJECT →
               </Link>
             </article>
 
             <article className="border-[4px] border-[#2e2e2e] p-6 bg-[#FFF9C4] hover:bg-[#E0F2FE] transition-colors fade-in-delay-3">
-              <h2 className="text-2xl font-black mb-4">PROJECT TITLE</h2>
-              <p className="mb-6">Short description.</p>
+              <h2 className="text-2xl font-black mb-4">SOCIAL-FIRST TRAVEL SERIES</h2>
+              <p className="mb-6">
+                Short-form travel series crafted for TikTok and Reels with agile production, subtitles, and always-on publishing workflows.
+              </p>
               <Link href="/portfolio/project-3" className="btn-3d inline-block px-6 py-2 bg-white font-bold">
                 VIEW PROJECT →
               </Link>

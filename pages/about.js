@@ -6,7 +6,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - Niamh Hawthorne</title>
+        <title>About - Riley Shaw</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -17,7 +17,7 @@ export default function About() {
           {/* Hero Section */}
           <div className="mb-12 md:mb-16 text-center">
             <div className="bg-white border-[4px] border-[#2e2e2e] p-6 md:p-8 inline-block transform rotate-[-1deg] fade-in-up">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl font-black">ABOUT NIAMH</h1>
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-black">ABOUT RILEY</h1>
             </div>
           </div>
 
@@ -25,7 +25,7 @@ export default function About() {
           <section className="mb-12 md:mb-20 bg-dot-pattern py-8 md:py-12 px-4 md:px-8 relative">
             <div className="bg-white border-[4px] border-[#2e2e2e] p-4 md:p-8 transform rotate-[1deg] max-w-3xl mx-auto fade-in-delay-1">
               <p className="text-lg md:text-2xl mb-4 md:mb-6 leading-relaxed font-bold">
-                Hello! I'm Niamh — a producer with a background in TV, advertising, sports broadcasting, and the wonderfully chaotic world of video game trailers.
+                Hello! I'm Riley — a producer with a background in TV, advertising, sports broadcasting, and the wonderfully chaotic world of video game trailers.
               </p>
               <p className="text-base md:text-xl leading-relaxed">
                 I specialise in keeping creative projects running smoothly from start to finish: budgets, timelines, localisation, VO direction, QC, delivery… all the fun stuff that makes the magic actually happen.
